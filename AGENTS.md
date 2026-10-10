@@ -73,6 +73,10 @@ For card work, use Mr. Moto's `mr` CLI: run `mr card claim <CARD>` and follow it
 
 ## Repo Specific
 
+### Deployment
+
+This repository is not deployed. Do not run `mise deploy` or the `deploy` skill. The `deploy/` tooling is inherited from Code Moto and unused.
+
 ### Badge On Bar
 
 Badge On Bar reads other apps' Dock badge counts through the macOS Accessibility API and mirrors selected badges into separate menu bar items. It is a native macOS menu bar accessory: no Dock icon and no main window unless configuration is open. It is distributed as a signed and notarized repository release, not through the App Store.
